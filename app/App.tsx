@@ -28,8 +28,8 @@ const styles = StyleSheet.create({
     borderRadius:10,
     borderWidth: 10,                            
     borderColor: 'rgba(94, 65, 123, 1)', 
-    width: '80%',       // 80% av förälderns bredd (skärmen)
-    height: '80%',      // 60% av förälderns höjd (skärmen)
+    width: '80%',      
+    height: '80%',      
     justifyContent: 'center',  
     alignItems: 'center', 
   },
