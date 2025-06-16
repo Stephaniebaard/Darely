@@ -5,7 +5,6 @@ const Game3Screen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Det här är Spel 1!</Text>
-      {/* Här lägger du till din spelkomponent */}
     </View>
   );
 };
