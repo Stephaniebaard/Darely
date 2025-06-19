@@ -19,7 +19,10 @@ const HomeScreen = () => {
         <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Game1')}>
           <Text style={styles.buttonText}>Would You Rather</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Game2')}>
+        <TouchableOpacity style={styles.button}   onPress={() => {
+    console.log('Tryckte på: Truth or Dare');
+    navigation.navigate('Game2');
+  }}>
           <Text style={styles.buttonText}>Truth or Dare</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Game3')}>
